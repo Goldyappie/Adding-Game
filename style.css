@@ -1,5 +1,5 @@
 :root {
-    --primary: #6c5ce7;
+    --primary: #5ce7a6;
     --success: #00b894;
     --error: #ff7675;
 }
@@ -93,4 +93,5 @@ body {
     font-size: 1.4rem;
     font-weight: 800;
     text-transform: uppercase;
+
 }
