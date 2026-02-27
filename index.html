@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Aesthetic Math</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <audio id="correctSound" src="correct.mp3" preload="auto"></audio>
+    <audio id="wrongSound" src="wrong.mp3" preload="auto"></audio>
+
+    <div class="glass-card">
+        <div class="header">
+            <div class="score-pill">Score: <span id="scoreValue">0</span></div>
+        </div>
+
+        <div class="question-box">
+            <h1 id="mathText">0 + 0</h1>
+        </div>
+
+        <div class="grid-options">
+            <button class="choice-btn" id="btn0">0</button>
+            <button class="choice-btn" id="btn1">0</button>
+            <button class="choice-btn" id="btn2">0</button>
+            <button class="choice-btn" id="btn3">0</button>
+        </div>
+
+        <div class="feedback-area">
+            <h2 id="announcer"></h2>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
